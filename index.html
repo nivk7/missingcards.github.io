@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Click Counter</title>
     <style>
+        body {
+            background-image: url('images/background.png'); /* Replace 'wood-texture.jpg' with the path to your wood texture image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #8B4513; /* Fallback color in case the image doesn't load */
+        }
         img {
             width: 100px;
             height: 100px;
@@ -13,8 +19,8 @@
             transition: all 0.3s ease;
         }
         .grey {
-            border: 5px solid red; /* Add a red border */
-            opacity: 0.5; /* Make the image semi-transparent */
+            border: 5px solid red;
+            opacity: 0.5;
         }
     </style>
 </head>
